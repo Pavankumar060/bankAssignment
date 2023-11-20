@@ -1,8 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
+ 
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -19,7 +16,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: cente.App {
+  text-align: center;
+}
+r;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +35,120 @@
   to {
     transform: rotate(360deg);
   }
+} */ 
+/* *{
+  padding: 2%;
+  margin:10%;
+
+} */
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #cfb7b7;
+  width: 100%;
+  height: 100%;  
 }
+
+*{
+  padding: 5px;
+  margin: 6px;
+  box-sizing: border-box
+}
+.signUp{
+  padding: 5px;
+  height: 100%;
+  
+}
+input[type=text], input[type=password], input[type=number],input[type=tel] {
+  width: 100%;
+  padding: 15px; 
+  margin: 5px 0 22px 0;
+   display: inline-block;
+  border: none;
+  background: #cfb7b7;
+}
+input[type=text]:focus, input[type=password]:focus ,input[type=number]:focus,input[type=tel]:focus{
+  background-color: rgb(156, 151, 151);
+  outline: none;
+}
+.loginPage{
+  padding: 5px;
+  height: 100%;
+  width:  100%;
+  border: 3px solid black;
+}
+/* .signUp{
+  display:flex-box;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 250px;;
+  height: 650px;
+  /* margin-top: 80px; */
+  /* background-color: rgb(180, 230, 247);  */
+  /* border: 3px solid red; */
+  /* } */ */
+  /* .loginPage{
+    display:flex-box;
+    justify-content: center;
+   flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    margin-right: 120px;
+    width:400px;
+    height: 400px;
+    background-color: rgb(200, 238, 247);
+    border: 1px solid red;
+    } */
+  .home_header{
+    display:flex;
+    justify-content: center;
+    color: rgb(14, 8, 72);
+    padding: 20px;
+    border: 1px solid rgb(15, 15, 14);
+    margin: 50px;
+  }
+  .home_item{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
+  .header_navigate{
+    display:flex;
+    justify-content: center;
+  }
+  .account{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pay_1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  } 
+  
+  
+  .pay_2,.pay_3{
+    border: 1px solid #2d2b2b;
+    text-align: left;
+    padding: 20px;
+  }
+  th{
+background-color: rgb(135, 135, 234);
+  }
+  td{
+    background-color: rgb(228, 228, 240);
+  }
+  .Image_1{
+    display: flex;
+  }
+  .header_navigate2{
+    width:100%
+  }
+  
