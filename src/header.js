@@ -14,7 +14,7 @@ const Header = () => {
       </div> */}
 
       <div className="header_navigate">
-        <Link to={"/header"}>
+        <Link to={"/home"}>
           <div className="header_navitem">
             <span className="header_nav1">Home</span>
           </div>
@@ -40,11 +40,7 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      <img
-        src="https://www.thebalancemoney.com/thmb/RdVnuj_EkMxtzyXlrDWsRexq324=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/what-is-an-online-bank-315204_final-98ce36e857d245d2867e28fa4c189111.png"
-        className="header_navigate2"
-        width="100%"
-      />
+      {/* <img src="online.png" className="header_navigate2" width="100%" /> */}
     </div>
   );
 };
