@@ -57,6 +57,10 @@ function Bills() {
                 <td className="pay_2">{billpayment.total}</td>
               </tr>
             );
+
+
+
+            
           })}
         </tbody>
       </table>
