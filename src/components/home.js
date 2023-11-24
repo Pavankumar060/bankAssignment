@@ -1,4 +1,4 @@
-import "./App.css";
+import "./../App.css";
 import Header from "./header";
 import React from "react";
 import "./online.png";

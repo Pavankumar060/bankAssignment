@@ -1,12 +1,7 @@
-// Function to view transaction history
-// let account = {
-//   balance: 1000,
-//   transactions: [],
-// };
 import Image from "./header";
-import "./App.css";
+import "./../App.css";
 
-function Bills() {
+const Bills = () => {
   const billPay = [
     {
       type: "Clothing",
@@ -57,15 +52,11 @@ function Bills() {
                 <td className="pay_2">{billpayment.total}</td>
               </tr>
             );
-
-
-
-            
           })}
         </tbody>
       </table>
     </div>
   );
-}
+};
 
 export default Bills;

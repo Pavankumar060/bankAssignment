@@ -1,5 +1,7 @@
 // Function to make a payment
-import Image from "../header";
+
+import Image from "./home";
+
 function Purchase() {
   const onlinePurchase = [
     {

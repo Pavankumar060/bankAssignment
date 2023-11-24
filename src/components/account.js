@@ -1,12 +1,6 @@
-// Sample user account with initial balance
-// let account = {
-//   AccountNumber: 1236549872,
-//   balance: 1000,
-//   transactions: [],
-// };
 import Header from "./header";
-// Function to check account balance
-function Account() {
+
+const Account = () => {
   return (
     <div>
       <Header />
@@ -15,7 +9,7 @@ function Account() {
     </div>
   );
   // return [account.balance, account.AccountNumber, account.transactions];
-}
+};
 
 // Example usage:
 console.log("Account Balance:", Account());

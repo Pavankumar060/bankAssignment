@@ -1,14 +1,14 @@
 import "./App.css";
-import Sigin from "./sigin";
-import Login from "./loginup";
-import Header from "./header";
-import Account from "./account";
-import Bills from "./bills";
+import Login from "./components/loginup";
+import Header from "./components/header";
+import Sigin from "./components/sigin";
 import Purchase from "./components/purchases";
-import Transcation from "./transcation";
-import Image from "./home";
+import Transcation from "./components/transcation";
+import Image from "./components/home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import Account from "./components/account";
+import Bills from "./components/bills";
 
 function App() {
   const router = createBrowserRouter([

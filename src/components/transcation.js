@@ -1,5 +1,4 @@
-import Bills from "./bills";
-import "./App.css";
+import "./../App.css";
 
 import Image from "./header";
 // Function to record a transaction
